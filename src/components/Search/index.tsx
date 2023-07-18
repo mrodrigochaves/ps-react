@@ -3,10 +3,11 @@ import { Input, Stack } from "@chakra-ui/react"
 export function Search() {
     return (
 
-        <Stack marginTop={'3%'} padding={'2%'} flexDirection={'row-reverse'} >
+        <Stack padding="3%" flexDirection={'row-reverse'} >
             <Input
                 borderColor={'none'}
-                maxW={'15%'}
+                borderRadius={'0'}
+                maxW={'10%'}
                 placeholder='pesquisar'
                 _placeholder={{ color: 'inherit' }}
                 size='md' />
