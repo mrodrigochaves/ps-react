@@ -6,7 +6,7 @@ import { Search } from "../../components/Search";
 export default function Home() {
   return (
     <ChakraProvider >
-      <Container marginTop={'5%'} maxW='85%' bg='green.400' >
+      <Container maxW='85%'>
       <Header />
       <Search />
       <DataTable />
