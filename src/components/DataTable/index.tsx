@@ -21,13 +21,17 @@ function TableCell({ isNumeric, children }: TableCellProps) {
 
 export function DataTable() {
   return (
-    <TableContainer padding="2%">
-      <Table variant="simple">
+    <TableContainer overflowX="auto" padding="2%">
+      <Table variant="simple" width="100%">
         <TableCaption>Informações sobre conta dos clientes</TableCaption>
         <Thead>
-          <Tr border={'solid 1px #000'} >
-            <Th borderBottom={'solid 1px #000'} textColor={'#000'}>Saldo Total: R$ </Th>
-            <Th borderBottom={'solid 1px #000'} textColor={'#000'}>Saldo no periodo: R$ </Th>
+          <Tr border="solid 1px #000">
+            <Th borderBottom="solid 1px #000" textColor="#000">
+              Saldo Total: R$ 
+            </Th>
+            <Th borderBottom="solid 1px #000" textColor="#000">
+              Saldo no periodo: R$ 
+            </Th>
           </Tr>
         </Thead>
         <Thead>
